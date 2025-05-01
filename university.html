@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>DNUI 文档</title>
+  <style>
+    /* 全局重置与居中 */
+    body {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      /* 中文默认字体与行高 */
+      font-family: "Microsoft YaHei", "SimSun", serif;
+      line-height: 1.15;
+    }
+    /* Logo 与上方空行相当于 Word 首段空段落 (≈28.35pt → 38px) */
+    .logo {
+      display: block;
+      margin: 38px auto 0;
+      width: 517px;    /* Word 中 4919345 EMU ≈ 387.8pt；387.8pt×1.333≈517px */
+      height: auto;
+    }
+    /* “精勤博学，学以致用” 48pt → 64px */
+    .motto {
+      margin: 0;
+      padding: 0;
+      font-size: 64px;
+      font-weight: normal;
+      color: rgb(45, 84,160);
+    }
+    /* 空一行 (≈48pt×1.15=55pt→73px) */
+    .motto + .credit {
+      margin-top: 73px;
+      
+    }
+    /* 英文注信用 Times New Roman 9pt → 12px */
+    .credit {
+      margin: 0;
+      padding: 0;
+      font-family: "Times New Roman", serif;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Logo 图片 -->
+  <img
+    src="E:/tu/1.png"
+    alt="Dalian Neusoft University of Information Logo"
+    class="logo"
+  >
+
+  <!-- 中文格言 -->
+  <p class="motto">精勤博学，学以致用</p>
+
+  <!-- 制作团队注释 -->
+  <p class="credit">
+    Produced by the Liu Shengyi Research Group,&nbsp;
+    Liaoning Province Key Laboratory of Microsystems,&nbsp;
+    Dalian Neusoft University of Information.
+  </p>
+
+</body>
+</html>
